@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PSYAARA provides enterprise-grade data migration services with zero-downtime execution, secure validation, and cloud modernization."
+    />
+    <title>PSYAARA | Precision Data Migration Services</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#" class="brand" aria-label="PSYAARA home">PSYAARA</a>
 
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#contact" class="btn btn-dark">Get in Touch</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <span class="eyebrow">Enterprise Data Migration</span>
+          <h1>Seamless Data Migration with Zero Downtime.</h1>
+          <p>
+            Zero-downtime, secure data migration solutions built for modern
+            businesses. We transfer your mission-critical data with verified
+            integrity.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Start Migration Project</a>
+            <a href="#services" class="btn btn-secondary">Explore Services</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <div class="container">
+          <h2>What We Deliver</h2>
+
+          <div class="card-grid">
+            <article class="service-card">
+              <h3>Cloud-to-Cloud Migration</h3>
+              <p>
+                Move workloads cleanly between AWS, Azure, and Google Cloud with
+                optimized schema conversion and minimal latency.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <h3>Database Modernization</h3>
+              <p>
+                Migrate legacy RDBMS systems (SQL Server, Oracle) to scalable
+                open-source or managed cloud databases (PostgreSQL, BigQuery,
+                Snowflake).
+              </p>
+            </article>
+
+            <article class="service-card">
+              <h3>Audit &amp; Data Validation</h3>
+              <p>
+                Automated pre- and post-migration reconciliation to verify zero
+                record loss, data consistency, and compliance standards.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="process">
+        <div class="container">
+          <h2>Our Migration Framework</h2>
+
+          <div class="process-grid">
+            <div class="step">
+              <div class="step-number">01</div>
+              <h4>Assessment</h4>
+              <p>Schema profiling, volume sizing, and dependency mapping.</p>
+            </div>
+
+            <div class="step">
+              <div class="step-number">02</div>
+              <h4>Architecture</h4>
+              <p>Designing secure ETL pipelines and rollback contingencies.</p>
+            </div>
+
+            <div class="step">
+              <div class="step-number">03</div>
+              <h4>Execution</h4>
+              <p>Live cutover or phased delta synchronizations.</p>
+            </div>
+
+            <div class="step">
+              <div class="step-number">04</div>
+              <h4>Verification</h4>
+              <p>Row-count matching, checksum audits, and performance tuning.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container contact-inner">
+          <h2>Planning a Migration?</h2>
+          <p>
+            Drop us an email or share your technical requirements to discuss a
+            tailored pipeline strategy.
+          </p>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+
+            <div class="form-row">
+              <label for="company">Company</label>
+              <input id="company" name="company" type="text" />
+            </div>
+
+            <div class="form-row">
+              <label for="message">Project Requirements</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-light">Send Inquiry</button>
+          </form>
+
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 PSYAARA. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
